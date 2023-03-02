@@ -1,0 +1,14 @@
+def find_second_largest(arr):
+    # Remove duplicates
+    arr = list(set(arr))
+
+    # Find the maximum value in the array
+    max_val = max(arr)
+
+    # Find the second largest value in the array
+    second_largest = float('-inf')
+    for val in arr:
+        if val != max_val and val > second_largest:
+            second_largest = val
+
+    return second_largest

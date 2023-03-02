@@ -1,0 +1,5 @@
+def find_second_largest(a, b, c):
+    largest = max(a, b, c)
+    smallest = min(a, b, c)
+    second_largest = a + b + c - largest - smallest
+    return second_largest
