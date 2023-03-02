@@ -1,0 +1,7 @@
+1.Initialize three variables to hold the three given numbers.
+2.Compare the first two numbers, and determine which is greater.
+3.Compare the greater number from step 2 with the third number, and determine which is greater.
+4.If the third number is the greatest, assign the second number to a new variable.
+5.If the first number is the greatest, assign the second number to a new variable.
+6.If the second number is the greatest, assign the first number to a new variable.
+7.Return the new variable containing the second-largest number.

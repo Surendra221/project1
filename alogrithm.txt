@@ -1,5 +1,0 @@
-1.Initialize two variables largest and second_largest to the smallest possible integer value.
-2.Loop through the array of integers and for each integer:
-   a. If the integer is greater than largest, set second_largest to largest and largest to the integer.
-   b. Otherwise, if the integer is greater than second_largest but not greater than largest, set second_largest to the integer.
-3.Return second_largest.
