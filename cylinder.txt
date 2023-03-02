@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+#define PI 3.14159 // define the value of pi as a constant
+
+int main() {
+   float radius, height, area;
+   printf("Enter the radius and height of the cylinder: ");
+   scanf("%f %f", &radius, &height);
+
+   // calculate the surface area of the cylinder
+   area = 2 * PI * radius * (radius + height);
+
+   printf("The surface area of the cylinder is: %.2f", area);
+   return 0;
+}
