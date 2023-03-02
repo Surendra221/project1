@@ -12,3 +12,4 @@ def find_second_largest(arr):
             second_largest = val
 
     return second_largest
+    #above code is in array version
